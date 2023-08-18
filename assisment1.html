@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create css project</title>
+    <style>
+        body{
+            display: grid;
+            justify-content: center;
+            align-content: center;
+        }
+        h1{
+            font-size: 40px;
+        }
+        .container{
+            height: 95vh;
+            max-width: 1400px;
+            display: grid;
+            grid-template-columns: 50% 45%;
+            
+            border: 5px solid black; 
+            justify-content: space-around;
+            align-items: center;
+        }
+        .bgc{
+            background-color: yellow;
+            
+        }
+        .img{
+            display: grid;
+            grid-template-columns: repeat(2 , 1fr);
+        }
+        button{
+           padding:  10px 40px ;
+           border: solid 5px black;
+        
+           background-color: black;
+           font-size: 20px;
+              
+           color: aliceblue;  
+           margin-top: 20px;
+        }
+        .Food{
+            margin: 0px 60px ;
+            padding: 0px 20px ;
+        }
+        
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="Food">
+            <h1>Healthy Food </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fugiat doloremque provident expedita aut voluptate soluta laborum at tenetur vel, et nobis possimus, ut a nemo ex eum eveniet vero ea maiores qui. Nemo officiis fugit quis quae beatae quam nostrum architecto ipsum, corrupti dolorum obcaecati rem, rerum magnam non.</p>
+         <button>Read More</button>
+        </div>
+        <div class="img">
+          <img src="https://media.istockphoto.com/id/870173346/photo/healthy-food.jpg?s=612x612&w=0&k=20&c=g6ewhe862ZaSQevMw7VS-VJzwXXEHL6Gqpr-fEDx0jY=" alt="food logo">
+          <div class="bgc"></div>
+        </div>
+        
+    </div>
+</body>
+</html>

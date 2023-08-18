@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Create a food store image</title>
+    <style>
+        .container{
+            padding: 10px  40px;
+        }
+        .navbar{
+           display: grid;
+           grid-template-columns: repeat(3,1fr);
+           align-items: center;
+           box-shadow: 0px 2px rgba(red, green, blue, alpha);
+
+        }
+        .icon{
+            height: 50px;
+            width: 50px;
+            margin-left: 100px;
+        }
+        .login{
+            
+            padding: 15px 100px;
+            justify-self: end;
+            background-color: rgb(12, 214, 12);
+            text-align: center;
+            font-size: 20px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+        a:hover{
+            color: rgb(8, 231, 8);
+        }
+        .homebar{
+            display: grid;
+            grid-template-columns: 90px 90px 90px;
+            grid-gap: 50px;
+        }
+        .secation-1{
+            display: grid;
+            grid-template-columns: auto auto;
+            margin-top: 20px;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 0px;
+        }
+        .food-img{
+           background-color: yellow;
+           height: 600px;
+        }.food{
+            padding:  200px;
+            
+        }
+        .food-img{
+            width: 600px;
+        }
+        .food1{
+         width: 400px;
+        }
+        
+        .food h1{
+            font-size: 40px;
+        }
+        .read{
+            padding: 10px 40px ;
+            background-color: black;
+            color: white;
+        }
+        .secation-2{
+            background-color: #2b1e2b;
+            display: grid;
+            grid-template-columns: 280px 280px 280px ;
+            grid-template-rows: auto auto auto ;
+             justify-content: space-evenly;
+             grid-gap: 20px;            
+            align-items: center;
+        
+
+        }
+        .aman{
+            margin-left: -60px;
+            text-align: center;
+            font-size: 20px;
+        }
+        .Minimum{
+            font-size: 30px;
+            color: white;
+            margin-left: -20px;
+        }
+    .secation-4{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        width: 100%;
+        height: 500px;
+        background-color: white;
+       column-gap: 60px;
+
+    }
+    .secation-4 .subsecation{
+        
+         border-radius: 25px 25px 0px 0px;
+         border-top: 2px solid black;
+         margin-top: 50px;
+         
+         width: 100%;
+         overflow: hidden;
+
+         
+    }
+    .subsecation .main{
+        background-color: white;
+        position: relative;
+        top: -50px;
+        border-radius: 0px 0px 25px 25px;
+        border: 2px solid black;
+
+    }
+    .secation-4 .subsecation img{
+        width: 100%;
+        height: 300px;
+        margin-top: -50px;
+
+        
+    }
+    .subsecation h2{
+        text-align: center;
+        margin: 10px 30px;
+        font-size: 35px;
+    }
+    .subsecation p{
+        text-align: center;
+        margin: 10px 40px;
+        font-size: 20px;
+    }
+    </style>
+</head>
+<body>
+    <section class="container">
+   <nav class="navbar">
+     <img class="icon" src="https://png.pngtree.com/png-clipart/20230401/original/pngtree-healthy-food-logo-design-with-chopstick-png-image_9016805.png" alt="">
+     <div class="homebar">
+        <a class="item" href="%">Home</a>
+        <a class="item" href="%">About</a>
+        <a class="item" href="%">Contact</a>
+     </div>
+     <button class="login">Login</button>
+   </nav>
+   <section  class="secation-1">
+   <div class="food">
+     <h1>Healthy Food</h1>
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores fugit ipsam quod inventore expedita modi ullam nesciunt vitae sapiente eum esse perferendis, rerum similique quia non cum nulla assumenda dolorum laborum! Iusto tenetur rem excepturi molestias voluptate impedit aliquam repudiandae dolores, aut, recusandae eligendi cupiditate nesciunt. Voluptatum atque odio provident.</p>
+     <button class="read ">Read MOre</button>
+   </div>
+   <div class="food-img">
+    <img class="food1" src="https://media.istockphoto.com/id/870173346/photo/healthy-food.jpg?s=612x612&w=0&k=20&c=g6ewhe862ZaSQevMw7VS-VJzwXXEHL6Gqpr-fEDx0jY=" alt="food ">
+   </div>
+   </section>
+ <section class="secation-2">
+     <div class="firest">
+        <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_210,h_398/4x_-_No_min_order_x0bxuf" alt="">
+        <h2 class="Minimum">No Minimum Order</h2>
+        <p class="aman">Order in for yourself or for the group, with no restrictions on order value </p>
+     </div>
+     <div class="second">
+     <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_224,h_412/4x_Live_order_zzotwy" alt="food2">
+     <h2 class="Minimum">Live Order Tracking</h2>
+     <p class="aman">Know where your order is at all times, from the restaurant to your doorstep </p>
+     </div>
+     <div class="third">
+        <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_248,h_376/4x_-_Super_fast_delivery_awv7sn" alt="fast delivery">
+        <h2 class="Minimum">Lightning Fast delivery</h2>
+        <p class="aman">Experience Swiggy's superfast delivery for food delivered fresh & on time </p>
+     </div>
+ </section>
+ <section class="secation-4">
+    <div class="subsecation">
+     <img src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*" alt="food1">
+     <div class="main">
+     <h2>Order Online</h2>
+     <p>Stay Home and order to your Door Step</p>
+    </div>
+</div>
+<div class="subsecation">
+    <img src="https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*" alt="second-img">
+    
+    <div class="main">
+        <h2>On-Site Dinnaing</h2>
+    <p>View the city's favourite dining venues.</p>
+    </div>
+</div>
+<div class="subsecation">
+    <img src="https://b.zmtcdn.com/webFrontend/d9d80ef91cb552e3fdfadb3d4f4379761647365057.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*" alt="third logo">
+     
+    <div class="main">
+    <h2>Nightlife & Clubs</h2>
+    <p>Explore the city's top nightlife outlets & Book tables.</p>
+    </div>
+</div>
+
+</section>
+    </section>
+</body>
+</html>

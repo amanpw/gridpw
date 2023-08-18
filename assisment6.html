@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table using grid</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        /* .container{
+            border: 5px solid black;
+            width: 100%;
+        } */
+        h1{
+            text-align: center;
+        }
+        .secation-1{
+            border: 3px solid black;
+            margin: 20px 10px;
+            background-color:rgb(9, 9, 129);
+        }
+        .secation-2{
+            display: grid;
+            grid-template-columns: repeat(8,1fr);
+            width: 100%;
+            background-color: aqua;
+            border: 3px dashed black;
+            margin: 10px;
+            align-content: center;
+          
+        } 
+        p{
+            border: 3px dashed black;
+            padding: 20px 20px;
+            margin: 0px;
+        } 
+        .head{
+            padding: 40px 20px;
+            background-color: sienna;
+        }
+        .colspan1{
+            grid-column-start: 7;
+            grid-column-end: 9;
+            background-color: green;
+        }
+        .colspan2{
+            grid-column:2/4;
+            background-color: white;
+        }
+        .colspan3{
+            grid-column:7/9;
+            background-color: white;
+        }
+         .colspan4{
+            grid-column:2/4;
+            background-color: white;
+        } 
+        .colspan5{
+            grid-column:7/9;
+            background-color: green;
+        }
+         .colspan6{
+            grid-column:2/4;
+            background-color: white;
+        } 
+        .colspan7{
+            grid-column:7/9;
+            background-color: green;
+        }
+        .yellow{
+          background-color: yellow; 
+          border: none;
+          font-weight: bold;
+          font-weight: normal;
+
+        }
+        .textbold{
+            background-color: purple;
+        }
+        .monday{
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+   
+     <section class="container">
+        <h1>School Time table</h1>
+        <section class="secation-1">
+            <section class="secation-2">
+         
+                <p class="head">Time </p>
+          <p class="head">8:00AM-9:00AM</p>
+          <p class="head">9:00AM-10:00AM</p>
+          <p class="head">10:00AM-11:00AM</p>
+          <p class="head">11:00AM-12:00AM</p>
+          <p class="head">12:00PM-2:00PM</p>
+          <p class="head">2:00PM-3:00PM</p>
+          <p class="head">3:00PM-4:00PM</p>
+        
+        
+          <P class="textbold">Monday</P>
+          <P class="monday">English</P>
+          <P class="monday">Biology </P>
+          <P class="monday">Physics</P>
+          <P class="monday">Chemistry</P>
+          <P class="yellow">L</P>
+          <P class=" colspan1">Chemistry Lab</P>
+          <!-- <P class="  monday"></P> -->
+          <P class="textbold">Tuesday</P>
+          <p class="colspan2">Biology Lab</p>
+          <!-- <p class="Tuesday"></p> -->
+          <p class="monday">Physics</p>
+          <p class="monday">Chemistry</p>
+          <p class="yellow">U</p>
+          <p class="monday">English</p>
+          <p class="monday">Biology</p>
+
+          <p class="textbold">Wednasday</p>
+          <p class="monday">English</p>
+          <p class="monday">Bio</p>
+          <p class="monday">Physics</p>
+          <p class="monday">Chemistry</p>
+          <p class="yellow">N</p>
+          <p class="colspan3">Game</p>
+          <!-- <p class="wenasday"></p> -->
+          
+          
+          <p class="textbold">Thursday</p>
+          <p class="colspan4">Biology Lab</p>
+          <!-- <p class="Thursday"></p> -->
+          <p class="monday">Physics</p>
+          <p class="monday">Chemistry</p>
+          <p class="yellow">C</p>
+          <p class="monday">English</p>
+          <p class="monday">Biology</p>
+          
+          
+          <p class="textbold">Friday</p>
+          <p class="monday">English</p>
+          <p class="monday">Biology</p>
+          <p class="monday">Physics</p>
+          <p class="monday">Chemistry</p>
+          <p class="yellow">H</p>
+          <p class="colspan5">Physics Lab</p>
+          <!-- <p class="friday"></p> -->
+          
+          <p class="textbold">Saturday</p>
+          <p class="colspan6 ">Biology Lab</p>
+          <!-- <p class="saturday"></p> -->
+          <p class="monday">Physics</p>
+          <p class="monday">Chemistry</p>
+          <p class="yellow">Breck</p>
+          <p class="colspan7">Let Off</p>
+          <!-- <p class="saturday"></p> -->
+        
+            </section>
+        </section>
+    </section> 
+</body>
+</html>

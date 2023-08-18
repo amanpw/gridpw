@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project2using gride</title>
+    <style>
+        body{
+            margin-left: 100px;
+            margin-right: 50px;
+        }
+       .navbar-1{
+         display: grid;
+         width: 100%;
+        
+         grid-template-columns: repeat(3 , 1fr);
+         justify-content: space-around;
+         box-shadow: 0px 2px rgba(red, green, blue, alpha);
+         align-content: center;
+         margin-bottom: 30px;
+
+       }
+       .img{
+        height: 50px ;
+        width: 50px;
+
+       }
+       .option{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px
+        ;
+        margin-right: 200px;
+        
+        
+       }
+       .button{
+        padding: 0px 20px ;
+        width: 200px;
+        margin-left: 200px;
+        background-color: rgb(15, 243, 15);
+        border-radius: 10px;
+       }
+       .section-2{
+        display: grid;
+        grid-template-columns: 42% 50%;
+        justify-content: space-around;
+        align-items: center;
+        
+
+
+       }
+       
+       .logo{
+        display: flex;
+        flex-direction: row;
+         background-color: yellow;
+         width: 630px;
+       }
+       
+       a{
+         text-decoration: none;
+         color: black;
+         font-size: 20px;
+       }
+       h1{
+        font-size: 50px;
+       }
+       .Read{
+        border: 0px solid black;
+        background-color: black;
+        padding: 20px 50px 
+        ;
+        color: aliceblue;
+        margin-top: 20px;
+
+       }
+       .aman{
+        width: 450px;
+       }
+       
+
+    </style>
+</head>
+<body>
+    <section class="section-1">
+       <nav class="navbar-1">
+
+     <img class="img" src="https://png.pngtree.com/png-clipart/20230401/original/pngtree-healthy-food-logo-design-with-chopstick-png-image_9016805.png" alt="logo">
+     
+     <div class="option">
+      <a href="&">Home</a>
+      <a href="&">About</a>
+      <a href="&"> Contact</a>
+     </div>
+     <button class="button">Login</button>
+      </nav>
+    </section>
+    <section class="section-2">
+     <div class="food">
+        <h1>Healthy Food</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam quisquam velit cupiditate! Quas sapiente molestias dicta, veritatis rerum eveniet alias excepturi modi quod doloribus nulla. Nulla unde, officia doloremque voluptatem magnam dolorum. Quasi quidem error sed facilis itaque dolore recusandae dicta ducimus, sequi culpa necessitatibus rerum molestiae beatae iusto illo?</p>
+        <button class="Read">Read More</button>
+     </div>
+     <div class="logo">
+         <img class="aman" src="https://media.istockphoto.com/id/870173346/photo/healthy-food.jpg?s=612x612&w=0&k=20&c=g6ewhe862ZaSQevMw7VS-VJzwXXEHL6Gqpr-fEDx0jY=" alt="logo">
+    
+     </div>
+    </section>
+</body>
+</html>

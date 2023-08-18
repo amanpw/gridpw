@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a project for photo</title>
+    <style>
+         .container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            border: 5px solid black; 
+            border-radius: 20px;
+            grid-gap: 20px;
+            padding: 20px;
+         }
+         img{
+              width: 100%;
+              height: auto;
+              border-radius: 20px;
+         }
+         .start{
+            grid-column: 1/2;
+         }
+         .start-2{
+            grid-column: 2/3;
+            grid-row: 1/3;
+            
+         }
+         .start-3{
+            grid-column: 3/4;
+            grid-row: 1/2;
+         }
+         .start-4{
+            grid-column: 1/2;
+            grid-row: 2/4;
+         }
+         .start-5{
+            grid-column: 2/3;
+            grid-row: 3/4;
+         }
+         .start-6{
+            grid-column: 3/4;
+            grid-row: 2/4;
+         }
+
+         /* div{
+            grid-gap: 20px;
+            border: 2px solid black;
+         }
+      */
+     
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="start">
+      <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" alt="aman">
+      </div>
+      <div class="start-2"><img class="second" src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp" alt="">
+    </div>
+      <div class="start-3">   <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp" alt="">
+    </div>
+     <div class="start-4">  <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp" alt="">
+    </div>
+    <div class="start-5">  <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" alt="">
+     </div> 
+     <div class="start-6"><img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp" alt="">
+     </div>
+    </div>
+</body>
+</html>

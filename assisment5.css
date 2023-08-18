@@ -1,0 +1,160 @@
+
+.navbar-1{
+    background-color: rgb(255, 254, 254);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+
+}
+.Cleanness{
+    height: 50px;
+    width: 50px;
+}
+.Login{
+    justify-self: end;
+    padding: 10px 70px;
+    background-color: green;
+    border-radius: 10px;
+}
+.container{
+    padding: 0px 50px;
+}
+.home-1 a{
+    text-decoration: none;
+   color: black;
+   font-size: 20px;
+   margin: 0px;
+
+}.home-1 a:hover{
+    color: greenyellow;
+}
+.home-1{
+   display: grid;
+   grid-template-columns: 110px 110px 110px;
+   
+   
+}
+.secation-1{
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: space-around;
+     grid-gap: 30px;
+}
+.secation-1 .text-bar{
+    padding: 0px 80px ;
+
+}
+.secation-1 .bgc-bar{
+    background-color: yellow;
+    width: 100%;
+    height: 100%;
+
+}
+.secation-1 h1{
+    font-size: 40px;
+}
+.secation-1 p{
+    font-size: 15px;
+}
+.foodimg{
+    height: 100%;
+}
+.text-bar .read{
+    background-color: black;
+    padding: 10px 40px;
+    color: white;
+    font-size: 20px;
+}
+.secation-2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgb(49, 22, 2);
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.secation-2 div{
+    text-align: center;
+    padding: 10px 40px;
+}
+.secation-2 h1{
+    font-size: 30px;
+    color: white;
+}
+.secation-2 p{
+    font-size: 20px;
+    color: saddlebrown;
+}
+.secation-3{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    justify-content: space-between;
+    grid-gap: 50px;
+    margin: 20px 0px;
+}
+.secation-3 div{
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+}
+.secation-3 img{
+    width: 100%;
+    
+    margin-top: -50px;
+}
+.secation-3 .text{
+    border: 2px solid black;
+    position: relative;
+    top: -60px;
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+    
+}
+.secation-3  p{
+    margin: 10px 80px;
+    font-size: 15px;
+
+}
+.secation-3  h1{
+    margin: 10px 80px;
+    font-size: 30px;
+}
+.secation-4{
+    background-color: rgb(39, 18, 3);
+    padding: 50px 20px;
+
+}
+.secation-4 img{
+    width: 400px;
+}
+.secation-4 .navbar-2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 50px;
+
+}
+ .item{
+    display: grid;
+    grid-gap: 0px;
+    margin-top: -30px;
+} 
+.item a{
+    padding: 0px 30px;
+    text-decoration: none;
+    color: rgb(230, 138, 72);
+    margin: 0px;
+   
+ }
+  .Copyright{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.secation-4 h1{
+    font-size: 30px;
+    color: white;
+    
+}
+
